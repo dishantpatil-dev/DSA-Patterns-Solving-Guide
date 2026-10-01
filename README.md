@@ -116,6 +116,15 @@ A pattern is strong only when you can explain why it applies, write the template
 
 Coverage was checked against the supplied DataStructures.pdf. The source text explicitly covers lists/stacks/queues, hashing, priority queues, sorting, disjoint sets, graph algorithms, and algorithm-design techniques. This repository rewrites those topics into original study notes and practice-oriented pattern explanations.
 
+
+## 🎥 YouTube learning resources
+
+Each major pattern is paired with a relevant external video/channel so you can **see the concept, watch the animation, then implement it yourself**.
+
+👉 **[Open the complete Video Resources guide](./VIDEO-RESOURCES.md)**
+
+The guide includes NeetCode, take U forward (Striver), Abdul Bari, Aditya Verma, and WilliamFiset resources mapped to DSA topics.
+
 ## 🎬 Animated pattern explanations
 
 These lightweight animated SVGs show the movement/state change instead of only describing it in text.
