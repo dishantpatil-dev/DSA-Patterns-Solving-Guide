@@ -1,90 +1,190 @@
 # DSA Patterns & Problem-Solving Guide
 
-A practical, visual-first guide for learning Data Structures & Algorithms by recognizing patterns instead of memorizing isolated solutions.
+<p align="center">
+  <strong>Learn DSA by recognizing patterns — not memorizing solutions.</strong>
+</p>
 
-The structure is informed by *Data Structures and Algorithm Analysis in C++ (Fourth Edition)* by Mark Allen Weiss. The book is used as a coverage reference; the explanations, examples, diagrams, templates, and checklists here are original.
+<p align="center">
+  <a href="https://github.com/dishantpatil-dev/DSA-Patterns-Solving-Guide/stargazers"><img src="https://img.shields.io/github/stars/dishantpatil-dev/DSA-Patterns-Solving-Guide?style=for-the-badge" alt="GitHub stars"></a>
+  <a href="https://github.com/dishantpatil-dev/DSA-Patterns-Solving-Guide/network/members"><img src="https://img.shields.io/github/forks/dishantpatil-dev/DSA-Patterns-Solving-Guide?style=for-the-badge" alt="GitHub forks"></a>
+  <a href="https://github.com/dishantpatil-dev/DSA-Patterns-Solving-Guide/issues"><img src="https://img.shields.io/github/issues/dishantpatil-dev/DSA-Patterns-Solving-Guide?style=for-the-badge" alt="GitHub issues"></a>
+</p>
 
-## Goal
+<p align="center">
+  <img src="./images/two-pointers-animated.svg" alt="Animated two pointers explanation" width="760">
+</p>
 
-**Problem → Constraints → Signals → Pattern → Invariant → Algorithm → Code → Complexity → Edge cases**
+---
 
-## Source coverage
+## About
 
-The source book covers algorithm analysis, lists/stacks/queues, trees, hashing, heaps, sorting, disjoint sets, graph algorithms, and algorithm-design techniques. This repository converts that broad coverage into an interview-oriented pattern map.
+**DSA Patterns & Problem-Solving Guide** is a visual-first, interview-oriented study repository for learning Data Structures & Algorithms through **pattern recognition, invariants, visual explanations, C++ templates, and practice guidance**.
 
-| Source area | Guide area |
+Instead of treating every coding problem as a completely new puzzle, the guide trains a repeatable workflow:
+
+> **Problem → Constraints → Signals → Pattern → Invariant → Algorithm → Code → Complexity → Edge Cases**
+
+The repository is designed to complement problem-solving practice, not replace it.
+
+## ✨ What this repository provides
+
+| Resource | Purpose |
 |---|---|
-| Algorithm analysis | Complexity & mathematical reasoning |
-| Lists, stacks, queues | Linear structures |
-| Trees | Traversal, BST, recursion |
-| Hashing | Frequency, lookup, complement |
-| Priority queues / heaps | Top-K, scheduling, greedy |
-| Sorting | Ordering, partitioning |
-| Disjoint sets | Union-Find |
-| Graph algorithms | BFS, DFS, shortest path, MST, topo sort |
-| Algorithm design | Greedy, divide & conquer, DP, backtracking |
+| 🧩 **Pattern notes** | Understand recurring DSA techniques and when to use them |
+| 🧠 **Recognition clues** | Identify patterns from constraints and problem wording |
+| 🎬 **Animated explanations** | Visualize pointer movement, search-space reduction and traversal |
+| 🖼️ **Visual cards** | Quick-reference diagrams for important patterns |
+| 💻 **C++17 templates** | Start implementation from a reusable structure |
+| 🔍 **Invariants & reasoning** | Understand *why* an algorithm works |
+| ⏱️ **Complexity analysis** | Track time and space trade-offs |
+| 🎥 **Video resources** | Optional external explanations mapped to topics |
+| 🗺️ **Problem-pattern map** | Connect problem types to useful patterns |
+| 📚 **Source coverage map** | Map broad DSA areas to this guide |
 
-## Pattern index
+## 🧭 Core learning workflow
 
+~~~text
+Read the pattern
+      ↓
+Understand the signal
+      ↓
+Watch the visual
+      ↓
+Study the C++ template
+      ↓
+Dry-run an example
+      ↓
+Solve independently
+      ↓
+Analyze complexity + edge cases
+      ↓
+Solve a new problem
+~~~
+
+### The rule
+
+**Do not memorize the code first.**
+
+Before implementing, be able to answer:
+
+1. What signal tells me this pattern may apply?
+2. What state am I maintaining?
+3. What invariant remains true?
+4. What changes on each iteration?
+5. Why can a candidate be discarded?
+6. What are the time and space costs?
+7. When should I *not* use this pattern?
+
+## 📚 Pattern index
+
+### Foundations
+- Complexity analysis
+- Mathematical reasoning
+- Recursion
+
+### Arrays & Hashing
 - Two Pointers
 - Sliding Window
 - Prefix Sum
 - Difference Array
-- Hashing / Frequency
-- Binary Search
+- Kadane's Algorithm
+- Hashing / Frequency Maps
+
+### Linear Data Structures
 - Fast & Slow Pointers
 - Linked-List Reversal
-- Stack / Monotonic Stack
-- Queue / BFS
-- Tree DFS / BFS
+- Stack
+- Monotonic Stack
+- Queue
+- BFS
+
+### Searching
+- Binary Search
+- Binary Search on Answer
+
+### Trees & Heaps
+- Tree DFS
+- Tree BFS
+- BST patterns
 - Heap / Priority Queue
-- Sorting + Greedy
-- Greedy
-- Divide & Conquer
-- Backtracking
-- Dynamic Programming
+- Top-K
+
+### Graphs
 - Graph DFS / BFS
 - Topological Sort
 - Shortest Path
 - Minimum Spanning Tree
 - Disjoint Set Union
 
-## Recommended learning order
+### Algorithm Design
+- Greedy
+- Divide & Conquer
+- Backtracking
+- Dynamic Programming
+- Sorting
+
+## 🗂️ Repository structure
+
+~~~text
+DSA-Patterns-Solving-Guide/
+├── 01-Foundations/
+├── 02-Arrays/
+├── 03-Strings/
+├── 04-Linked-Lists/
+├── 05-Stack-Queue/
+├── 06-Binary-Search/
+├── 07-Trees/
+├── 08-Heaps/
+├── 09-Graphs/
+├── 10-Greedy/
+├── 11-Backtracking/
+├── 12-Dynamic-Programming/
+├── 13-Advanced/
+├── images/
+├── problem-pattern-map/
+├── CONTRIBUTING.md
+├── VIDEO-RESOURCES.md
+└── README.md
+~~~
+
+## 🗺️ Recommended learning order
 
 **Foundations → Arrays & Hashing → Two Pointers → Sliding Window → Prefix/Difference → Binary Search → Strings → Linked Lists → Stack/Queue → Trees → Heaps → Graphs → Greedy → Backtracking → Dynamic Programming → Advanced**
 
-## How to use each pattern
+This is a learning path, not a rigid requirement. Move ahead when you can explain and implement the current pattern independently.
 
-For every pattern, ask:
+## 🎬 Animated pattern explanations
 
-1. What signal in the statement suggests it?
-2. What state must be maintained?
-3. What invariant stays true?
-4. What changes on each step?
-5. Why can discarded candidates never become useful?
-6. What are time and space costs?
-7. What edge cases break a naive implementation?
+Lightweight animated SVGs visualize the important state changes.
 
-## Repository map
+| Pattern | Visual |
+|---|---|
+| Two Pointers | [Animated explanation](./images/two-pointers-animated.svg) |
+| Sliding Window | [Animated explanation](./images/sliding-window-animated.svg) |
+| Binary Search | [Animated explanation](./images/binary-search-animated.svg) |
+| Hashing | [Animated explanation](./images/hashmap-animated.svg) |
+| BFS | [Animated explanation](./images/bfs-animated.svg) |
+| DFS / Backtracking | [Animated explanation](./images/dfs-animated.svg) |
 
-- 01-Foundations
-- 02-Arrays
-- 03-Strings
-- 04-Linked-Lists
-- 05-Stack-Queue
-- 06-Binary-Search
-- 07-Trees
-- 08-Heaps
-- 09-Graphs
-- 10-Greedy
-- 11-Backtracking
-- 12-Dynamic-Programming
-- 13-Advanced
-- problem-pattern-map
+> **Visual-first principle:** understand *what is moving or changing and why* before writing the implementation.
 
-## C++ convention
+## 🎥 Video learning resources
 
-Templates use compact C++17 and focus on algorithmic reasoning.
+Each major topic is paired with optional external learning resources.
+
+**[→ Open the complete Video Resources Guide](./VIDEO-RESOURCES.md)**
+
+Resources include **NeetCode, take U forward (Striver), Abdul Bari, Aditya Verma, and WilliamFiset**, mapped to relevant DSA topics.
+
+Recommended workflow:
+
+> **Notes → Animation → Video if needed → Template → Independent implementation → Problems**
+
+Do not turn the repository into a passive video-watching checklist. The goal is independent problem solving.
+
+## 💻 C++17 convention
+
+Examples use compact C++17 and emphasize algorithmic reasoning.
 
 ~~~cpp
 class Solution {
@@ -95,56 +195,71 @@ public:
 };
 ~~~
 
-## Important
+## 📖 Source coverage
 
-This is an original study guide, not a reproduction of the source textbook. Do not copy textbook pages, figures, exercises, or long passages into this repository.
+The structure of this guide is informed by **Data Structures and Algorithm Analysis in C++ (Fourth Edition)** by Mark Allen Weiss.
 
-## Practice rule
+The source is used as a **coverage reference**. This repository independently rewrites the material into pattern-oriented study notes, diagrams, templates, and checklists.
 
-A pattern is strong only when you can explain why it applies, write the template, dry-run a new example, state the invariant, analyze complexity, and identify when it should not be used.
+| Source area | Guide area |
+|---|---|
+| Algorithm analysis | Complexity & mathematical reasoning |
+| Lists, stacks, queues | Linear structures |
+| Trees | Traversal, BST, recursion |
+| Hashing | Frequency, lookup, complement |
+| Priority queues / heaps | Top-K, scheduling, greedy |
+| Sorting | Ordering and partitioning |
+| Disjoint sets | Union-Find |
+| Graph algorithms | BFS, DFS, shortest path, MST, topological sort |
+| Algorithm design | Greedy, divide & conquer, DP, backtracking |
 
+## ⚠️ Copyright & source-use note
 
-## 🖼️ Visual pattern cards
+This repository is an **original study guide**, not a reproduction of the source textbook.
 
-### Two Pointers
-![Two Pointers](./images/two-pointers.svg)
+It does not intentionally reproduce textbook pages, figures, exercises, or long passages. Explanations, examples, diagrams, templates, and checklists are written for this repository.
 
-### Sliding Window
-![Sliding Window](./images/sliding-window.svg)
+## 🤝 Contributing
 
-## 📌 Source note
+Contributions are welcome.
 
-Coverage was checked against the supplied DataStructures.pdf. The source text explicitly covers lists/stacks/queues, hashing, priority queues, sorting, disjoint sets, graph algorithms, and algorithm-design techniques. This repository rewrites those topics into original study notes and practice-oriented pattern explanations.
+Good contributions include:
+- clearer pattern explanations
+- better visualizations
+- additional recognition clues
+- edge cases and common mistakes
+- original C++ examples
+- problem-to-pattern mappings
+- corrections and documentation improvements
 
+Please read **[CONTRIBUTING.md](./CONTRIBUTING.md)** before opening a pull request.
 
-## 🎥 YouTube learning resources
+## ⭐ Support the project
 
-Each major pattern is paired with a relevant external video/channel so you can **see the concept, watch the animation, then implement it yourself**.
+If this guide helps you learn DSA, consider giving the repository a ⭐ on GitHub.
 
-👉 **[Open the complete Video Resources guide](./VIDEO-RESOURCES.md)**
+It helps the project become easier for other learners to discover.
 
-The guide includes NeetCode, take U forward (Striver), Abdul Bari, Aditya Verma, and WilliamFiset resources mapped to DSA topics.
+## 📌 Study philosophy
 
-## 🎬 Animated pattern explanations
+> **The goal is not to remember 500 solutions.**
+>
+> **The goal is to recognize the underlying pattern and derive the solution.**
 
-These lightweight animated SVGs show the movement/state change instead of only describing it in text.
+A strong DSA learner should gradually move from:
 
-### Two Pointers
-![Animated Two Pointers](./images/two-pointers-animated.svg)
+~~~text
+"What solution did I see?"
+        ↓
+"What pattern is this?"
+        ↓
+"What invariant can I maintain?"
+        ↓
+"Can I derive the algorithm?"
+        ↓
+"Can I implement it without the template?"
+~~~
 
-### Sliding Window
-![Animated Sliding Window](./images/sliding-window-animated.svg)
-
-### Binary Search
-![Animated Binary Search](./images/binary-search-animated.svg)
-
-### Hashing
-![Animated Hashing](./images/hashmap-animated.svg)
-
-### BFS
-![Animated BFS](./images/bfs-animated.svg)
-
-### DFS / Backtracking
-![Animated DFS](./images/dfs-animated.svg)
-
-> **Visual-first rule:** each animation is meant to answer *“what is moving/changing, and why?”* before you write the code.
+<p align="center">
+  <sub>Built as an open-source learning resource for structured DSA practice.</sub>
+</p>
