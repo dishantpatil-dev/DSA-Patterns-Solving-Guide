@@ -102,3 +102,16 @@ This is an original study guide, not a reproduction of the source textbook. Do n
 ## Practice rule
 
 A pattern is strong only when you can explain why it applies, write the template, dry-run a new example, state the invariant, analyze complexity, and identify when it should not be used.
+
+
+## 🖼️ Visual pattern cards
+
+### Two Pointers
+![Two Pointers](./images/two-pointers.svg)
+
+### Sliding Window
+![Sliding Window](./images/sliding-window.svg)
+
+## 📌 Source note
+
+Coverage was checked against the supplied DataStructures.pdf. The source text explicitly covers lists/stacks/queues, hashing, priority queues, sorting, disjoint sets, graph algorithms, and algorithm-design techniques. This repository rewrites those topics into original study notes and practice-oriented pattern explanations.
