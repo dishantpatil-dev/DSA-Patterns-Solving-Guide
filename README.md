@@ -115,3 +115,27 @@ A pattern is strong only when you can explain why it applies, write the template
 ## 📌 Source note
 
 Coverage was checked against the supplied DataStructures.pdf. The source text explicitly covers lists/stacks/queues, hashing, priority queues, sorting, disjoint sets, graph algorithms, and algorithm-design techniques. This repository rewrites those topics into original study notes and practice-oriented pattern explanations.
+
+## 🎬 Animated pattern explanations
+
+These lightweight animated SVGs show the movement/state change instead of only describing it in text.
+
+### Two Pointers
+![Animated Two Pointers](./images/two-pointers-animated.svg)
+
+### Sliding Window
+![Animated Sliding Window](./images/sliding-window-animated.svg)
+
+### Binary Search
+![Animated Binary Search](./images/binary-search-animated.svg)
+
+### Hashing
+![Animated Hashing](./images/hashmap-animated.svg)
+
+### BFS
+![Animated BFS](./images/bfs-animated.svg)
+
+### DFS / Backtracking
+![Animated DFS](./images/dfs-animated.svg)
+
+> **Visual-first rule:** each animation is meant to answer *“what is moving/changing, and why?”* before you write the code.
