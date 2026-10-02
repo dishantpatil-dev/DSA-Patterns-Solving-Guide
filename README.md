@@ -195,6 +195,14 @@ public:
 };
 ~~~
 
+## 🎓 Engineering DAA → Interview Coverage
+
+This guide also includes a consolidated map connecting the **five-unit engineering DAA/DSA foundation** to interview-oriented patterns and SDE preparation.
+
+**[→ Open the Engineering DAA / FAANG Coverage Map](./ENGINEERING-DAA-FAANG-COVERAGE-MAP.md)**
+
+It distinguishes **conceptual syllabus coverage** from the additional **pattern recognition, implementation, debugging, and independent problem-solving practice** required for technical interviews.
+
 ## 📖 Source coverage
 
 The structure of this guide is informed by **Data Structures and Algorithm Analysis in C++ (Fourth Edition)** by Mark Allen Weiss.
